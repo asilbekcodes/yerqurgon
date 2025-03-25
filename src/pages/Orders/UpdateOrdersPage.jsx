@@ -11,7 +11,7 @@ import { get } from "lodash";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
-import TradeForm from "./_components/TradeForm";
+import TradeForm from "./_components/OrderForm";
 import { useUpdateBreadcrumbItems } from "./breadcrumbs/useUpdateBreadcrumb";
 import { httpGetOrderOne, httpUpdateOrder } from "@/services/api/requests/order.request";
 import { prepareOrderForEdit } from "@/services/api/prepare-data/order";
